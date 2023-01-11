@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+
+}
+
+header{
+    height: 100px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+
+nav h1{
+   
+}
+
+main{
+    min-height: 605px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container-btn{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.on{
+    background-color: greenyellow;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 15x;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+  
+}
+.on:hover{
+    cursor: pointer;
+}
+
+.off{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 15x;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+.off:hover{
+    cursor: pointer;
+}
+
+footer{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+     bottom: 0;
+    position: fixed;
+    width: 100%;
+    
+    
+}
+
+footer a{
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+} 
