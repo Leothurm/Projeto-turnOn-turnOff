@@ -9,7 +9,14 @@ a{
     text-decoration: none;
 
 }
+img{
+    width: 200px;
 
+}
+
+img:hover{
+    cursor: pointer;
+}
 header{
     height: 100px;
     background-color: yellow;
@@ -65,6 +72,21 @@ main{
 
 }
 .off:hover{
+    cursor: pointer;
+}
+
+
+.restartPage{
+    background-color: red;
+    width: 100px;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 15x;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.restartPage:hover{
     cursor: pointer;
 }
 
